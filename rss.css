@@ -1,0 +1,93 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#bodycontainer {
+    width: 900px;
+    margin: auto;
+}
+
+
+#rss-feed-widget {
+    width: 600px; 
+    
+    border: 1px solid #444;
+    
+    border-radius: 2px;
+}
+
+
+/* Header */
+
+#rss-feed-widget .header {
+    padding: 10px;
+    
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #333;
+    background: #777;
+    
+    color: #ccc;
+    text-shadow: 0px 1px 0px #ddd;
+    font-family: Ubuntu, Verdana;
+}
+
+#rss-feed-widget .header h1 {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Content */
+
+#rss-feed-widget .content {
+    padding: 10px;
+}
+
+#rss-feed-widget .content .item {
+    border-bottom: 1px solid #aaa;
+}
+
+#rss-feed-widget .content .item:last-child {
+    border-bottom: none;
+}
+
+#rss-feed-widget .content .item .date {
+    color: #777;
+    
+    float: right;
+}
+
+
+
+
+/* Footer */
+
+#rss-feed-widget .footer {
+    padding: 10px;
+    
+    border-top: 1px solid #333;
+    background: #777;
+    
+    color: #ddd;
+    text-shadow: 0px 1px 0px #fff;
+    font-family: Ubuntu, Verdana;
+}
+
+
+
+/* Link */
+
+#rss-feed-widget .content .item .title a, #rss-feed-widget .content .item .title a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Misc */
+
+.hide {
+    display: none;
+}
